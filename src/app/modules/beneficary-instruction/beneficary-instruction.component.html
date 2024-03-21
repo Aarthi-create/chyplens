@@ -1,0 +1,77 @@
+<div class="form-outer">
+  <div class="beneficary-instruction-card">
+    <div>
+      <h1>Beneficiary Instructions</h1>
+      <p>Strengthen your payment processes and cybersecurity posture. Cyphlens helps companies deliver a great customer
+        experience while significantly improving security. Add yourself to the waiting list for access to our private
+        beta.</p>
+    </div>
+    <div class="beneficary-instruction d-flex gap-5">
+      <div class="Maker-form w-100">
+        <form>
+          <app-input [labelName]="'Marker'" [inputplaceHolder]="'Maker@.com'"></app-input>
+          <!-- <div class="form-group mb-20">
+            <label for="exampleInputEmail1">Checkers (max 5)</label>
+            <div class="input-group ">
+              <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                <option selected>1 selected</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div> -->
+          <app-select></app-select>
+
+          <div class="form-group mb-20">
+            <label for="exampleInputEmail1">Payor Name*</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          </div>
+          <div class="form-group mb-20">
+            <label for="exampleInputEmail1">Payor authorized viewer</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="viewer@somedomain.come">
+          </div>
+        </form>
+        
+      </div>
+      <div class="Beneficary-form w-100">
+        <form>
+          <div class="form-group Beneficary-Location mb-40">
+            <label for="exampleInputEmail1">Beneficary Location*</label>
+            <div class="input-group">
+              <select class="form-select" id="inputGroupSelect03" aria-label="Example select with button addon">
+                <option selected>United States of America</option>
+                <option value="1">One</option>
+                <option value="2">Two</option>
+                <option value="3">Three</option>
+              </select>
+            </div>
+          </div>
+          <div class="form-group mb-20">
+            <label for="exampleInputEmail1">Beneficary name*</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+
+          </div>
+          <div class="form-group mb-20">
+            <label for="exampleInputEmail1">Rounting Number*</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+
+          </div>
+          <div class="form-group mb-20">
+            <label for="exampleInputEmail1">Account Number*</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+              placeholder="Enter email">
+
+          </div>
+        
+        </form>
+      </div>
+     </div>
+    <div>
+      <button type="button" class="btn btn-dark">Submit</button>
+     </div>
+  </div>
+</div>

@@ -1,0 +1,39 @@
+.radiobtn{
+    .form-check-input[type=radio] {
+        width: 3px !important;
+        margin-top: 7px !important;
+        display: flex !important;
+        padding: 8px !important;
+        border: 1px solid darkgray !important;
+    }
+    .form-check-input:checked {
+        background-color: #007B90 !important;
+    }
+}
+.show.dropdown{
+    .input-field .form-floating.error {
+        border: 1px solid rgba(51, 53, 63, 0.4) !important;
+            label{
+                color: #2C323E !important;
+            }
+    }
+}
+input.input100 {
+    height: 68px;
+    padding: 0 25px 0 25px;
+}
+
+  
+  .input100 {
+    display: block;
+    width: 100%;
+    height: 68px;
+    padding: 0 25px 0 25px;
+    box-sizing: border-box;
+    border: 1px solid #e6e6e6;
+    font-family: OpenSans-Regular;
+    font-size: 15px;
+    color: #666666;
+    line-height: 1.2;
+    text-align: center;
+}

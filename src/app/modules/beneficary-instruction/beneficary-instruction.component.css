@@ -1,0 +1,36 @@
+
+
+.form-outer{
+    padding: 30px 40px;
+    background: #e9faff;
+}
+.beneficary-instruction-card{
+    border: 1px solid black;
+    min-height: 100vh;
+    padding: 35px 65px;
+    background: white;
+   
+}
+.mb-40{
+    margin-bottom: 40px;
+}
+
+.Maker-form{
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+
+}
+@media only screen and (max-width :768px) {
+    .beneficary-instruction {
+        display: block !important;
+    }
+    .Beneficary-form{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    
+    }
+    .maker, .Beneficary-Location {
+        margin-bottom: 20px;
+    } 
+
+}

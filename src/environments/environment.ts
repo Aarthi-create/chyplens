@@ -3,6 +3,8 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
+  SERVER_URL:'http://localhost:4200/',
+  cookieDomain: 'localhost',
   production: false
 };
 

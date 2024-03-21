@@ -1,1 +1,28 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.css";
+/* @import "~@ng-select/ng-select/themes/default.theme.css"; */
+*,body{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.ng-dropdown-panel .ng-dropdown-panel-items .ng-option .highlighted { 
+    background-color: orange !important;
+    font-weight: bold !important;
+    font-weight: 500 !important;
+    text-decoration: none !important;
+  }
+.form-control:focus {
+    color: none !important; 
+   background-color: none !important; 
+   border-color: none !important; 
+   outline: 0 !important; 
+   box-shadow:none !important;
+}
+.form-select:focus{
+    outline: 0 !important; 
+    box-shadow:none !important;
+}
+.mb-40{margin-bottom: 40px;}
+.mb-50{margin-bottom: 50px;}
+.mb-20{margin-bottom: 20px;}
